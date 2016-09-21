@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yzhu/ontologies/2014/11/untitled-ontology-3"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/yzhu/ontologies/2014/11/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#中药"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#内寒证"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#外寒证"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#实热"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#实证"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#寒证"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#干姜"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#清热药"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#温里药"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#热证"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#肉桂"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#胡黄连"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#虚热"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#虚证"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#表证"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#证候"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#里证"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#银柴胡"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#附子"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#风热表证"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#黄柏"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#黄芩"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#黄连"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#治疗"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#清热"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#温里"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#预防"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ce8c1261_65b5_4ed0_a1b5_0ec29732b2f9"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#内寒证"/>
+        <Class IRI="#寒证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#内寒证"/>
+        <Class IRI="#里证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#外寒证"/>
+        <Class IRI="#寒证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#外寒证"/>
+        <Class IRI="#表证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#实热"/>
+        <Class IRI="#实证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#实热"/>
+        <Class IRI="#热证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#实证"/>
+        <Class IRI="#证候"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#寒证"/>
+        <Class IRI="#证候"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#干姜"/>
+        <Class IRI="#温里药"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#清热药"/>
+        <Class IRI="#中药"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#温里药"/>
+        <Class IRI="#中药"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#热证"/>
+        <Class IRI="#证候"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#肉桂"/>
+        <Class IRI="#温里药"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#胡黄连"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#清热"/>
+            <Class IRI="#虚热"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#虚热"/>
+        <Class IRI="#热证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#虚热"/>
+        <Class IRI="#虚证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#虚证"/>
+        <Class IRI="#证候"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#表证"/>
+        <Class IRI="#证候"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#里证"/>
+        <Class IRI="#证候"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#银柴胡"/>
+        <Class IRI="#清热药"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#银柴胡"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#清热"/>
+            <Class IRI="#虚热"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#附子"/>
+        <Class IRI="#温里药"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#风热表证"/>
+        <Class IRI="#热证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#风热表证"/>
+        <Class IRI="#表证"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#黄柏"/>
+        <Class IRI="#清热药"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#黄柏"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#清热"/>
+            <Class IRI="#实热"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#黄芩"/>
+        <Class IRI="#清热药"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#黄芩"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#清热"/>
+            <Class IRI="#实热"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#黄连"/>
+        <Class IRI="#清热药"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#黄连"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#清热"/>
+            <Class IRI="#实热"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#实热"/>
+        <Class IRI="#虚热"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#实证"/>
+        <Class IRI="#虚证"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#寒证"/>
+        <Class IRI="#热证"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#表证"/>
+        <Class IRI="#里证"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#疾病"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ce8c1261_65b5_4ed0_a1b5_0ec29732b2f9"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#清热"/>
+        <ObjectProperty IRI="#治疗"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#温里"/>
+        <ObjectProperty IRI="#治疗"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#预防"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#治疗"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#清热"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#温里"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#预防"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#治疗"/>
+        <Class IRI="#中药"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#清热"/>
+        <Class IRI="#清热药"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#温里"/>
+        <Class IRI="#温里药"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#治疗"/>
+        <Class IRI="#证候"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#清热"/>
+        <Class IRI="#热证"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#温里"/>
+        <Class IRI="#寒证"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#清热"/>
+        <ObjectProperty IRI="#温里"/>
+    </DisjointObjectProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ce8c1261_65b5_4ed0_a1b5_0ec29732b2f9</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">感冒</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
