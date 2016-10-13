@@ -10,319 +10,4274 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/yzhu/ontologies/2014/11/untitled-ontology-3"
+     xml:base="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     ontologyIRI="http://www.semanticweb.org/yzhu/ontologies/2014/11/untitled-ontology-3">
-    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+     ontologyIRI="http://purl.obolibrary.org/obo/">
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#中药"/>
+        <Class IRI="TCMDPO_0000001"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#内寒证"/>
+        <Class IRI="TCMDPO_0000003"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#外寒证"/>
+        <Class IRI="TCMDPO_0000004"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#实热"/>
+        <Class IRI="TCMDPO_0000005"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#实证"/>
+        <Class IRI="TCMDPO_0000006"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#寒证"/>
+        <Class IRI="TCMDPO_0000007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#干姜"/>
+        <Class IRI="TCMDPO_0000008"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#清热药"/>
+        <Class IRI="TCMDPO_0000009"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#温里药"/>
+        <Class IRI="TCMDPO_0000010"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#热证"/>
+        <Class IRI="TCMDPO_0000011"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#疾病"/>
+        <Class IRI="TCMDPO_0000012"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#肉桂"/>
+        <Class IRI="TCMDPO_0000013"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#胡黄连"/>
+        <Class IRI="TCMDPO_0000014"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#虚热"/>
+        <Class IRI="TCMDPO_0000015"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#虚证"/>
+        <Class IRI="TCMDPO_0000016"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#表证"/>
+        <Class IRI="TCMDPO_0000017"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#证候"/>
+        <Class IRI="TCMDPO_0000018"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#里证"/>
+        <Class IRI="TCMDPO_0000019"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#银柴胡"/>
+        <Class IRI="TCMDPO_0000020"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#附子"/>
+        <Class IRI="TCMDPO_0000021"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#风热表证"/>
+        <Class IRI="TCMDPO_0000022"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#黄柏"/>
+        <Class IRI="TCMDPO_0000023"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#黄芩"/>
+        <Class IRI="TCMDPO_0000024"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#黄连"/>
+        <Class IRI="TCMDPO_0000025"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#治疗"/>
+        <Class IRI="TCMDPO_0000026"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#清热"/>
+        <Class IRI="TCMDPO_0000027"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#温里"/>
+        <Class IRI="TCMDPO_0000028"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#预防"/>
+        <Class IRI="TCMDPO_0000029"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_ce8c1261_65b5_4ed0_a1b5_0ec29732b2f9"/>
+        <Class IRI="TCMDPO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000048"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000050"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000062"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000091"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000130"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000131"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000132"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000135"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000136"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000146"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000147"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000169"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000172"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000173"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000174"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000178"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000182"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000189"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000193"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000196"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000197"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000198"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000199"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000230"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000241"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000243"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000245"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000246"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000249"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000250"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000251"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000253"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000254"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000258"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000260"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000261"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000262"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000263"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000264"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000265"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000266"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000267"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000268"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000269"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000270"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000271"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000272"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000273"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000274"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000275"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000276"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000277"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000278"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000279"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000280"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000281"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000282"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000283"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000284"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000285"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000286"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000287"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000288"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000289"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000290"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000291"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000292"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000294"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000295"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000296"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000297"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000298"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000299"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000300"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000305"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000306"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000307"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000308"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000310"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000311"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000312"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000313"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000314"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000315"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000316"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000317"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000318"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000319"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000324"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000325"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000326"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TCMDPO_0000327"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="TCMDPO_0000320"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="TCMDPO_0000321"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="TCMDPO_0000322"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="TCMDPO_0000323"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="En"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="Latin"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="TCMDPO_0000002"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#内寒证"/>
-        <Class IRI="#寒证"/>
+        <Class IRI="TCMDPO_0000003"/>
+        <Class IRI="TCMDPO_0000005"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#内寒证"/>
-        <Class IRI="#里证"/>
+        <Class IRI="TCMDPO_0000004"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#外寒证"/>
-        <Class IRI="#寒证"/>
+        <Class IRI="TCMDPO_0000005"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#外寒证"/>
-        <Class IRI="#表证"/>
+        <Class IRI="TCMDPO_0000006"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#实热"/>
-        <Class IRI="#实证"/>
+        <Class IRI="TCMDPO_0000007"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#实热"/>
-        <Class IRI="#热证"/>
+        <Class IRI="TCMDPO_0000008"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#实证"/>
-        <Class IRI="#证候"/>
+        <Class IRI="TCMDPO_0000009"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#寒证"/>
-        <Class IRI="#证候"/>
+        <Class IRI="TCMDPO_0000010"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#干姜"/>
-        <Class IRI="#温里药"/>
+        <Class IRI="TCMDPO_0000011"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#清热药"/>
-        <Class IRI="#中药"/>
+        <Class IRI="TCMDPO_0000012"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#温里药"/>
-        <Class IRI="#中药"/>
+        <Class IRI="TCMDPO_0000013"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#热证"/>
-        <Class IRI="#证候"/>
+        <Class IRI="TCMDPO_0000014"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#肉桂"/>
-        <Class IRI="#温里药"/>
+        <Class IRI="TCMDPO_0000015"/>
+        <Class IRI="TCMDPO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#胡黄连"/>
+        <Class IRI="TCMDPO_0000016"/>
+        <Class IRI="TCMDPO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000017"/>
+        <Class IRI="TCMDPO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000018"/>
+        <Class IRI="TCMDPO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000019"/>
+        <Class IRI="TCMDPO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000020"/>
+        <Class IRI="TCMDPO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000021"/>
+        <Class IRI="TCMDPO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000022"/>
+        <Class IRI="TCMDPO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000023"/>
+        <Class IRI="TCMDPO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000024"/>
+        <Class IRI="TCMDPO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000025"/>
+        <Class IRI="TCMDPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000026"/>
+        <Class IRI="TCMDPO_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000027"/>
+        <Class IRI="TCMDPO_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000028"/>
+        <Class IRI="TCMDPO_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000029"/>
+        <Class IRI="TCMDPO_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000030"/>
+        <Class IRI="TCMDPO_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000031"/>
+        <Class IRI="TCMDPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000032"/>
+        <Class IRI="TCMDPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000033"/>
+        <Class IRI="TCMDPO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000034"/>
+        <Class IRI="TCMDPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000035"/>
+        <Class IRI="TCMDPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000036"/>
+        <Class IRI="TCMDPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000037"/>
+        <Class IRI="TCMDPO_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000038"/>
+        <Class IRI="TCMDPO_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000039"/>
+        <Class IRI="TCMDPO_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000040"/>
+        <Class IRI="TCMDPO_0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000041"/>
+        <Class IRI="TCMDPO_0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000042"/>
+        <Class IRI="TCMDPO_0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000043"/>
+        <Class IRI="TCMDPO_0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000044"/>
+        <Class IRI="TCMDPO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000045"/>
+        <Class IRI="TCMDPO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000046"/>
+        <Class IRI="TCMDPO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000047"/>
+        <Class IRI="TCMDPO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000048"/>
+        <Class IRI="TCMDPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000049"/>
+        <Class IRI="TCMDPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000050"/>
+        <Class IRI="TCMDPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000051"/>
+        <Class IRI="TCMDPO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000052"/>
+        <Class IRI="TCMDPO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000053"/>
+        <Class IRI="TCMDPO_0000018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000054"/>
+        <Class IRI="TCMDPO_0000018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000055"/>
+        <Class IRI="TCMDPO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000056"/>
+        <Class IRI="TCMDPO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000057"/>
+        <Class IRI="TCMDPO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000058"/>
+        <Class IRI="TCMDPO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000059"/>
+        <Class IRI="TCMDPO_0000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000060"/>
+        <Class IRI="TCMDPO_0000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000061"/>
+        <Class IRI="TCMDPO_0000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000062"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000063"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000064"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000065"/>
+        <Class abbreviatedIRI=":Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000066"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000067"/>
+        <Class IRI="TCMDPO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000068"/>
+        <Class IRI="TCMDPO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000069"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000070"/>
+        <Class IRI="TCMDPO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000071"/>
+        <Class IRI="TCMDPO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000072"/>
+        <Class IRI="TCMDPO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000073"/>
+        <Class IRI="TCMDPO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000074"/>
+        <Class IRI="TCMDPO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000075"/>
+        <Class IRI="TCMDPO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000076"/>
+        <Class IRI="TCMDPO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000077"/>
+        <Class IRI="TCMDPO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000078"/>
+        <Class IRI="TCMDPO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000079"/>
+        <Class IRI="TCMDPO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000080"/>
+        <Class IRI="TCMDPO_0000065"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000081"/>
+        <Class IRI="TCMDPO_0000065"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000082"/>
+        <Class IRI="TCMDPO_0000065"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000083"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000084"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000085"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000086"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000087"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000088"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000089"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000090"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000091"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000092"/>
+        <Class IRI="TCMDPO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000093"/>
+        <Class IRI="TCMDPO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000094"/>
+        <Class IRI="TCMDPO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000095"/>
+        <Class IRI="TCMDPO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000096"/>
+        <Class IRI="TCMDPO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000097"/>
+        <Class IRI="TCMDPO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000098"/>
+        <Class IRI="TCMDPO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000099"/>
+        <Class IRI="TCMDPO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000100"/>
+        <Class IRI="TCMDPO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000101"/>
+        <Class IRI="TCMDPO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000102"/>
+        <Class IRI="TCMDPO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000103"/>
+        <Class IRI="TCMDPO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000104"/>
+        <Class IRI="TCMDPO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000105"/>
+        <Class IRI="TCMDPO_0000025"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000106"/>
+        <Class IRI="TCMDPO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000107"/>
+        <Class IRI="TCMDPO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000108"/>
+        <Class IRI="TCMDPO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000109"/>
+        <Class IRI="TCMDPO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000110"/>
+        <Class IRI="TCMDPO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000111"/>
+        <Class IRI="TCMDPO_0000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000112"/>
+        <Class IRI="TCMDPO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000113"/>
+        <Class IRI="TCMDPO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000114"/>
+        <Class IRI="TCMDPO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000115"/>
+        <Class IRI="TCMDPO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000116"/>
+        <Class IRI="TCMDPO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000117"/>
+        <Class IRI="TCMDPO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000118"/>
+        <Class IRI="TCMDPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000119"/>
+        <Class IRI="TCMDPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000120"/>
+        <Class IRI="TCMDPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000121"/>
+        <Class IRI="TCMDPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000122"/>
+        <Class IRI="TCMDPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000123"/>
+        <Class IRI="TCMDPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000124"/>
+        <Class IRI="TCMDPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000125"/>
+        <Class IRI="TCMDPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000126"/>
+        <Class IRI="TCMDPO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000127"/>
+        <Class IRI="TCMDPO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000128"/>
+        <Class IRI="TCMDPO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000129"/>
+        <Class IRI="TCMDPO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000130"/>
+        <Class IRI="TCMDPO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000131"/>
+        <Class IRI="TCMDPO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000132"/>
+        <Class IRI="TCMDPO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000133"/>
+        <Class IRI="TCMDPO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000134"/>
+        <Class IRI="TCMDPO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000135"/>
+        <Class IRI="TCMDPO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000136"/>
+        <Class IRI="TCMDPO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000137"/>
+        <Class IRI="TCMDPO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000138"/>
+        <Class IRI="TCMDPO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000139"/>
+        <Class IRI="TCMDPO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000140"/>
+        <Class IRI="TCMDPO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000141"/>
+        <Class IRI="TCMDPO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000141"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#清热"/>
-            <Class IRI="#虚热"/>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000066"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#虚热"/>
-        <Class IRI="#热证"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#虚热"/>
-        <Class IRI="#虚证"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#虚证"/>
-        <Class IRI="#证候"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#表证"/>
-        <Class IRI="#证候"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#里证"/>
-        <Class IRI="#证候"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#银柴胡"/>
-        <Class IRI="#清热药"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#银柴胡"/>
+        <Class IRI="TCMDPO_0000141"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#清热"/>
-            <Class IRI="#虚热"/>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000084"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#附子"/>
-        <Class IRI="#温里药"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#风热表证"/>
-        <Class IRI="#热证"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#风热表证"/>
-        <Class IRI="#表证"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#黄柏"/>
-        <Class IRI="#清热药"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#黄柏"/>
+        <Class IRI="TCMDPO_0000141"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#清热"/>
-            <Class IRI="#实热"/>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000085"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#黄芩"/>
-        <Class IRI="#清热药"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#黄芩"/>
+        <Class IRI="TCMDPO_0000141"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#清热"/>
-            <Class IRI="#实热"/>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000086"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#黄连"/>
-        <Class IRI="#清热药"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#黄连"/>
+        <Class IRI="TCMDPO_0000141"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#清热"/>
-            <Class IRI="#实热"/>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000092"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#实热"/>
-        <Class IRI="#虚热"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#实证"/>
-        <Class IRI="#虚证"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#寒证"/>
-        <Class IRI="#热证"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#表证"/>
-        <Class IRI="#里证"/>
-    </DisjointClasses>
-    <ClassAssertion>
-        <Class IRI="#疾病"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_ce8c1261_65b5_4ed0_a1b5_0ec29732b2f9"/>
-    </ClassAssertion>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#清热"/>
-        <ObjectProperty IRI="#治疗"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#温里"/>
-        <ObjectProperty IRI="#治疗"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#预防"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#治疗"/>
-    </IrreflexiveObjectProperty>
-    <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#清热"/>
-    </IrreflexiveObjectProperty>
-    <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#温里"/>
-    </IrreflexiveObjectProperty>
-    <IrreflexiveObjectProperty>
-        <ObjectProperty IRI="#预防"/>
-    </IrreflexiveObjectProperty>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000321"/>
+            <Class IRI="TCMDPO_0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000076"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000142"/>
+        <Class IRI="TCMDPO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000143"/>
+        <Class IRI="TCMDPO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000144"/>
+        <Class IRI="TCMDPO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000145"/>
+        <Class IRI="TCMDPO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000146"/>
+        <Class IRI="TCMDPO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000147"/>
+        <Class IRI="TCMDPO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000148"/>
+        <Class IRI="TCMDPO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000149"/>
+        <Class IRI="TCMDPO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000150"/>
+        <Class IRI="TCMDPO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000151"/>
+        <Class IRI="TCMDPO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000152"/>
+        <Class IRI="TCMDPO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000153"/>
+        <Class IRI="TCMDPO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000154"/>
+        <Class IRI="TCMDPO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000155"/>
+        <Class IRI="TCMDPO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000156"/>
+        <Class IRI="TCMDPO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000157"/>
+        <Class IRI="TCMDPO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000158"/>
+        <Class IRI="TCMDPO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000159"/>
+        <Class IRI="TCMDPO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000160"/>
+        <Class IRI="TCMDPO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000161"/>
+        <Class IRI="TCMDPO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000162"/>
+        <Class IRI="TCMDPO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000163"/>
+        <Class IRI="TCMDPO_0000035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000164"/>
+        <Class IRI="TCMDPO_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000165"/>
+        <Class IRI="TCMDPO_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000166"/>
+        <Class IRI="TCMDPO_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000167"/>
+        <Class IRI="TCMDPO_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000168"/>
+        <Class IRI="TCMDPO_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000169"/>
+        <Class IRI="TCMDPO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000170"/>
+        <Class IRI="TCMDPO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000171"/>
+        <Class IRI="TCMDPO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000172"/>
+        <Class IRI="TCMDPO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000173"/>
+        <Class IRI="TCMDPO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000174"/>
+        <Class IRI="TCMDPO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000175"/>
+        <Class IRI="TCMDPO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000176"/>
+        <Class IRI="TCMDPO_0000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000177"/>
+        <Class IRI="TCMDPO_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000178"/>
+        <Class IRI="TCMDPO_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000179"/>
+        <Class IRI="TCMDPO_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000180"/>
+        <Class IRI="TCMDPO_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000181"/>
+        <Class IRI="TCMDPO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000182"/>
+        <Class IRI="TCMDPO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000183"/>
+        <Class IRI="TCMDPO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000184"/>
+        <Class IRI="TCMDPO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000184"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000185"/>
+        <Class IRI="TCMDPO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000186"/>
+        <Class IRI="TCMDPO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000187"/>
+        <Class IRI="TCMDPO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000188"/>
+        <Class IRI="TCMDPO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000189"/>
+        <Class IRI="TCMDPO_0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000190"/>
+        <Class IRI="TCMDPO_0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000191"/>
+        <Class IRI="TCMDPO_0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000192"/>
+        <Class IRI="TCMDPO_0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000192"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000192"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000087"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000192"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000089"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000192"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000321"/>
+            <Class IRI="TCMDPO_0000326"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000192"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000192"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000192"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000323"/>
+            <Class IRI="TCMDPO_0000081"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000193"/>
+        <Class IRI="TCMDPO_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000194"/>
+        <Class IRI="TCMDPO_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000195"/>
+        <Class IRI="TCMDPO_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000196"/>
+        <Class IRI="TCMDPO_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000197"/>
+        <Class IRI="TCMDPO_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000198"/>
+        <Class IRI="TCMDPO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000199"/>
+        <Class IRI="TCMDPO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000200"/>
+        <Class IRI="TCMDPO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000201"/>
+        <Class IRI="TCMDPO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000202"/>
+        <Class IRI="TCMDPO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000203"/>
+        <Class IRI="TCMDPO_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000204"/>
+        <Class IRI="TCMDPO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000205"/>
+        <Class IRI="TCMDPO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000206"/>
+        <Class IRI="TCMDPO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000207"/>
+        <Class IRI="TCMDPO_0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000208"/>
+        <Class IRI="TCMDPO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000209"/>
+        <Class IRI="TCMDPO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000210"/>
+        <Class IRI="TCMDPO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000211"/>
+        <Class IRI="TCMDPO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000212"/>
+        <Class IRI="TCMDPO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000213"/>
+        <Class IRI="TCMDPO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000214"/>
+        <Class IRI="TCMDPO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000215"/>
+        <Class IRI="TCMDPO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000216"/>
+        <Class IRI="TCMDPO_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000217"/>
+        <Class IRI="TCMDPO_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000218"/>
+        <Class IRI="TCMDPO_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000219"/>
+        <Class IRI="TCMDPO_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000220"/>
+        <Class IRI="TCMDPO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000221"/>
+        <Class IRI="TCMDPO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000222"/>
+        <Class IRI="TCMDPO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000223"/>
+        <Class IRI="TCMDPO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000224"/>
+        <Class IRI="TCMDPO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000225"/>
+        <Class IRI="TCMDPO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000226"/>
+        <Class IRI="TCMDPO_0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000227"/>
+        <Class IRI="TCMDPO_0000046"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000228"/>
+        <Class IRI="TCMDPO_0000046"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000229"/>
+        <Class IRI="TCMDPO_0000046"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000230"/>
+        <Class IRI="TCMDPO_0000046"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000231"/>
+        <Class IRI="TCMDPO_0000045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000232"/>
+        <Class IRI="TCMDPO_0000045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000233"/>
+        <Class IRI="TCMDPO_0000045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000234"/>
+        <Class IRI="TCMDPO_0000045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000235"/>
+        <Class IRI="TCMDPO_0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000236"/>
+        <Class IRI="TCMDPO_0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000237"/>
+        <Class IRI="TCMDPO_0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000238"/>
+        <Class IRI="TCMDPO_0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000239"/>
+        <Class IRI="TCMDPO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000240"/>
+        <Class IRI="TCMDPO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000241"/>
+        <Class IRI="TCMDPO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000242"/>
+        <Class IRI="TCMDPO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000242"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000083"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000242"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000242"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000086"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000242"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000321"/>
+            <Class IRI="TCMDPO_0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000242"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000242"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000323"/>
+            <Class IRI="TCMDPO_0000081"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000243"/>
+        <Class IRI="TCMDPO_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000244"/>
+        <Class IRI="TCMDPO_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000245"/>
+        <Class IRI="TCMDPO_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000246"/>
+        <Class IRI="TCMDPO_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000247"/>
+        <Class IRI="TCMDPO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000248"/>
+        <Class IRI="TCMDPO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000249"/>
+        <Class IRI="TCMDPO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000250"/>
+        <Class IRI="TCMDPO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000251"/>
+        <Class IRI="TCMDPO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000252"/>
+        <Class IRI="TCMDPO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000253"/>
+        <Class IRI="TCMDPO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000254"/>
+        <Class IRI="TCMDPO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000255"/>
+        <Class IRI="TCMDPO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000256"/>
+        <Class IRI="TCMDPO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000257"/>
+        <Class IRI="TCMDPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000258"/>
+        <Class IRI="TCMDPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000259"/>
+        <Class IRI="TCMDPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000260"/>
+        <Class IRI="TCMDPO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000261"/>
+        <Class IRI="TCMDPO_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000262"/>
+        <Class IRI="TCMDPO_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000263"/>
+        <Class IRI="TCMDPO_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000264"/>
+        <Class IRI="TCMDPO_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000265"/>
+        <Class IRI="TCMDPO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000266"/>
+        <Class IRI="TCMDPO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000267"/>
+        <Class IRI="TCMDPO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000268"/>
+        <Class IRI="TCMDPO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000269"/>
+        <Class IRI="TCMDPO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000270"/>
+        <Class IRI="TCMDPO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000271"/>
+        <Class IRI="TCMDPO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000272"/>
+        <Class IRI="TCMDPO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000273"/>
+        <Class IRI="TCMDPO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000274"/>
+        <Class IRI="TCMDPO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000275"/>
+        <Class IRI="TCMDPO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000276"/>
+        <Class IRI="TCMDPO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000277"/>
+        <Class IRI="TCMDPO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000278"/>
+        <Class IRI="TCMDPO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000083"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000087"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000089"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000321"/>
+            <Class IRI="TCMDPO_0000325"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000278"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000324"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000279"/>
+        <Class IRI="TCMDPO_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000280"/>
+        <Class IRI="TCMDPO_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000281"/>
+        <Class IRI="TCMDPO_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000282"/>
+        <Class IRI="TCMDPO_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000283"/>
+        <Class IRI="TCMDPO_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000284"/>
+        <Class IRI="TCMDPO_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000285"/>
+        <Class IRI="TCMDPO_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000286"/>
+        <Class IRI="TCMDPO_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000287"/>
+        <Class IRI="TCMDPO_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000288"/>
+        <Class IRI="TCMDPO_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000289"/>
+        <Class IRI="TCMDPO_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000290"/>
+        <Class IRI="TCMDPO_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000291"/>
+        <Class IRI="TCMDPO_0000058"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000292"/>
+        <Class IRI="TCMDPO_0000058"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000293"/>
+        <Class IRI="TCMDPO_0000058"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000294"/>
+        <Class IRI="TCMDPO_0000058"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000295"/>
+        <Class IRI="TCMDPO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000296"/>
+        <Class IRI="TCMDPO_0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000297"/>
+        <Class IRI="TCMDPO_0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000298"/>
+        <Class IRI="TCMDPO_0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000299"/>
+        <Class IRI="TCMDPO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000300"/>
+        <Class IRI="TCMDPO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000301"/>
+        <Class IRI="TCMDPO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000302"/>
+        <Class IRI="TCMDPO_0000061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000303"/>
+        <Class IRI="TCMDPO_0000061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000304"/>
+        <Class IRI="TCMDPO_0000061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000305"/>
+        <Class IRI="TCMDPO_0000061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000306"/>
+        <Class IRI="TCMDPO_0000022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000307"/>
+        <Class IRI="TCMDPO_0000022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000308"/>
+        <Class IRI="TCMDPO_0000022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000309"/>
+        <Class IRI="TCMDPO_0000022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000310"/>
+        <Class IRI="TCMDPO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000311"/>
+        <Class IRI="TCMDPO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000312"/>
+        <Class IRI="TCMDPO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000313"/>
+        <Class IRI="TCMDPO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000314"/>
+        <Class IRI="TCMDPO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000315"/>
+        <Class IRI="TCMDPO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000316"/>
+        <Class IRI="TCMDPO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000317"/>
+        <Class IRI="TCMDPO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000318"/>
+        <Class IRI="TCMDPO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000319"/>
+        <Class IRI="TCMDPO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000324"/>
+        <Class IRI="TCMDPO_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000325"/>
+        <Class IRI="TCMDPO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000326"/>
+        <Class IRI="TCMDPO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000327"/>
+        <Class IRI="TCMDPO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000327"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000083"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000327"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000327"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000086"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000327"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000087"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000327"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000321"/>
+            <Class IRI="TCMDPO_0000075"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TCMDPO_0000327"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#治疗"/>
-        <Class IRI="#中药"/>
+        <ObjectProperty IRI="TCMDPO_0000320"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000001"/>
+        </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#清热"/>
-        <Class IRI="#清热药"/>
+        <ObjectProperty IRI="TCMDPO_0000321"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000321"/>
+            <Class IRI="TCMDPO_0000001"/>
+        </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#温里"/>
-        <Class IRI="#温里药"/>
+        <ObjectProperty IRI="TCMDPO_0000322"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TCMDPO_0000323"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000323"/>
+            <Class IRI="TCMDPO_0000001"/>
+        </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#治疗"/>
-        <Class IRI="#证候"/>
+        <ObjectProperty IRI="TCMDPO_0000320"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000320"/>
+            <Class IRI="TCMDPO_0000062"/>
+        </ObjectAllValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#清热"/>
-        <Class IRI="#热证"/>
+        <ObjectProperty IRI="TCMDPO_0000321"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000321"/>
+            <Class IRI="TCMDPO_0000063"/>
+        </ObjectAllValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#温里"/>
-        <Class IRI="#寒证"/>
+        <ObjectProperty IRI="TCMDPO_0000322"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000322"/>
+            <Class IRI="TCMDPO_0000064"/>
+        </ObjectAllValuesFrom>
     </ObjectPropertyRange>
-    <DisjointObjectProperties>
-        <ObjectProperty IRI="#清热"/>
-        <ObjectProperty IRI="#温里"/>
-    </DisjointObjectProperties>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="TCMDPO_0000323"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="TCMDPO_0000323"/>
+            <Class IRI="TCMDPO_0000065"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>TCMDPO_0000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">以中药材为原材料，按中医药理论，经过加工炮制后，可直接用于中医临床或制剂生产使用的处方药品。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>TCMDPO_0000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">中华人民共和国国家质量监督检验检疫总局中国国家标准化管理委员会.GB/T 31774-2015 中华人民共和国国家标准，中药编码规则及编码[S].2015.</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_ce8c1261_65b5_4ed0_a1b5_0ec29732b2f9</IRI>
-        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">感冒</Literal>
+        <IRI>TCMDPO_0000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">中药饮片</Literal>
     </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000003</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">辛温解表药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000004</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">清热药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000005</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">解表药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000006</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">泻下药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000007</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">祛风湿药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000008</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">化湿药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000009</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">利水渗湿药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000010</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">温里药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000011</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">理气药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000012</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">消食药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000013</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">驱虫药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000014</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">止血药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000015</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">活血化瘀药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000016</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">化痰止咳平喘药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000017</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">安神药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000018</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">平肝息风药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000019</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">开窍药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000020</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">补虚药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000021</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">收涩药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000022</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">涌吐药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000023</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">攻毒杀虫止痒药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000024</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">拔毒化腐生肌药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000025</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">辛凉解表药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000026</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">清热泻火药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000027</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">清热燥湿药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000028</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">清热解毒药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000029</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">清热凉血药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000030</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">清虚热药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000031</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">攻下药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000032</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">润下药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000033</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">峻下逐水药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000034</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">祛风湿散寒药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000035</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">祛风湿清热药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000036</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">祛风湿强筋骨药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000037</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">利水消肿药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000038</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">利尿通淋药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000039</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">利湿退黄药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000040</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">凉血止血药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000041</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">化瘀止血药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000042</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">收敛止血药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000043</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">温经止血药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000044</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">活血止痛药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000045</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">活血调经药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000046</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">活血疗伤药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000047</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">破血消癥药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000048</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">温化寒痰药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000049</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">清化热痰药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_000005</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">解表药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000050</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">止咳平喘药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000051</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">重镇安神药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000052</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">养心安神药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000053</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">平抑肝阳药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000054</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">息风止痉药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000055</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">补气药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000056</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">补阳药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000057</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">补血药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000058</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">补阴药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000059</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">固表止汗药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000060</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">敛肺涩肠药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000061</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">固精缩尿止带药</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>TCMDPO_0000062</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">药物对于机体某部分的选择性作用。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>TCMDPO_0000062</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000062</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">药物作用部位</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>TCMDPO_0000063</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">寒热温凉四种不同的药性。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>TCMDPO_0000063</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000063</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">四气</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>TCMDPO_0000064</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">药物所具有的酸、苦、甘、辛、咸不同的药味。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>TCMDPO_0000064</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000064</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">五味</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>TCMDPO_0000065</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">药物对机体的损害性。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>TCMDPO_0000065</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">侯士良主编.中药八百种详解[M].郑州：河南科学技术出版社.2009.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000065</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">毒性</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000066</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">肝经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000067</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">寒</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000068</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">热</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000069</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">胆经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000070</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">酸</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000071</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">温</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000072</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">凉</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000073</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">麻黄</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000074</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">桂枝</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000075</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">平</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000076</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">苦</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000077</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">甘</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000078</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">辛</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000079</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">咸</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000080</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">大毒</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000081</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">有毒</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000082</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">小毒</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000083</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">肺经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000084</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">大肠经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000085</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">脾经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000086</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">胃经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000087</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">心经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000088</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">小肠经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000089</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">肾经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000090</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">膀胱经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000091</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">三焦经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000092</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">心包经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000093</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">紫苏叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000094</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">生姜</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000095</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">香薷</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000096</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">荆芥</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000097</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">防风</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000098</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">薄荷</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000099</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">牛蒡子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000100</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">蝉蜕</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000101</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">桑叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000102</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">菊花</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000103</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">蔓荆子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000104</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">柴胡</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000105</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">升麻</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000106</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">竹叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000107</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">天花粉</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000108</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">芦根</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000109</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">知母</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000110</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">寒水石</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000111</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">石膏</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000112</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">苦参</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000113</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">秦皮</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000114</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">龙胆</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000115</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">黄柏</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000116</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">黄连</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000117</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">黄芩</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000118</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">紫花地丁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000119</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">蒲公英</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000120</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">贯众</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000121</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">青黛</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000122</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">板蓝根</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000123</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">大青叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000124</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">穿心莲</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000125</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">连翘</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000126</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">金银花</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000127</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">水牛角</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000128</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">紫草</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000129</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">赤芍</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000130</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">牡丹皮</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000131</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">玄参</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000132</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">生地黄</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000133</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">胡黄连</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000134</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">银柴胡</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000135</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">地骨皮</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000136</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">白薇</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000137</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">青蒿</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000138</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">芦荟</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000139</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">番泻叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000140</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">芒硝</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000141</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">大黄</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000142</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">松子仁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000143</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">郁李仁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000144</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">火麻仁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000145</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">千金子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000146</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">巴豆霜</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000147</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">牵牛子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000148</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">商陆</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000149</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">芫花</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000150</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">京大戟</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000151</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">甘遂</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000152</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">乌梢蛇</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000153</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">蕲蛇</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000154</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">川乌</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000155</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">徐长卿</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000156</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">威灵仙</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000157</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">独活</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000158</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">海桐皮</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000159</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">臭梧桐</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000160</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">豨莶草</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000161</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">桑枝</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000162</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">防己</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000163</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">秦艽</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000164</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">雪莲花</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000165</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">千年健</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000166</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">狗脊</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000167</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">桑寄生</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000168</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">五加皮</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000169</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">厚朴</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000170</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">苍术</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000171</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">佩兰</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000172</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">广藿香</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000173</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">砂仁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000174</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">草果</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000175</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">草豆蔻</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000176</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">豆蔻</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000177</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">泽泻</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000178</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">猪苓</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000179</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">薏苡仁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000180</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">茯苓</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000181</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">通草</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000182</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">木通</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000183</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">滑石</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000184</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">车前子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000185</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">地耳草</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000186</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">虎杖</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000187</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">金钱草</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000188</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">茵陈</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000189</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">吴茱萸</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000190</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">肉桂</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000191</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">干姜</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000192</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">附子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000193</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">沉香</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000194</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">木香</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000195</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">枳实</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000196</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">青皮</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000197</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">陈皮</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000198</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">鸡内金</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000199</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">莱菔子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000200</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">稻芽</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000201</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">麦芽</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000202</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">六神曲</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000203</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">山楂</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000204</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">南瓜子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000205</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">槟榔</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000206</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">苦楝皮</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000207</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">使君子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000208</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">槐花</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000209</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">地榆</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000210</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">大蓟</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000211</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">小蓟</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000212</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">花蕊石</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000213</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">蒲黄</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000214</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">茜草</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000215</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">三七</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000216</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">棕榈炭</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000217</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">紫珠叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000218</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">仙鹤草</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000219</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">白及</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000220</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">姜黄</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000221</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">灶心土</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000222</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">炮姜</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000223</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">艾叶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000224</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">郁金</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000225</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">延胡索</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000226</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">川芎</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000227</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">苏木</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000228</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">自然铜</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000229</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">马钱子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000230</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">土鳖虫</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000231</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">益母草</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000232</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">桃仁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000233</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">红花</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000234</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">丹参</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000235</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">虻虫</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000236</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">水蛭</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000237</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">三棱</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000238</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">莪术</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000239</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">芥子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000240</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">白附子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000241</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">天南星</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000242</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">半夏</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000243</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">竹茹</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000244</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">瓜蒌</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000245</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">浙贝母</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000246</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">川贝母</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000247</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">紫菀</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000248</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">百部</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000249</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">紫苏子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000250</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">苦杏仁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000251</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">远志</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000252</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">合欢皮</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000253</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">首乌藤</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000254</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">灵芝</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000255</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">柏子仁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000256</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">酸枣仁</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000257</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">琥珀</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000258</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">龙骨</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000259</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">磁石</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000260</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">朱砂</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000261</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">紫贝齿</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000262</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">牡蛎</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000263</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">珍珠母</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000264</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">石决明</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000265</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">钩藤</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000266</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">珍珠</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000267</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">牛黄</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000268</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">羚羊角</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000269</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">石菖蒲</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000270</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">苏合香</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000271</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">冰片</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000272</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">麝香</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000273</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">白术</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000274</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">黄芪</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000275</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">太子参</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000276</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">党参</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000277</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">西洋参</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000278</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">人参</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000279</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">杜仲</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000280</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">仙茅</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000281</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">巴戟天</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000282</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">淫羊藿</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000283</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">紫河车</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000284</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">鹿茸</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000285</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">龙眼肉</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000286</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">何首乌</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000287</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">阿胶</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000288</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">白芍</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000289</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">熟地黄</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000290</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">当归</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000291</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">麦冬</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000292</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">百合</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000293</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">南沙参</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000294</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">北沙参</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000295</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">五味子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000296</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">糯稻根</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000297</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">浮小麦</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000298</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">麻黄根</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000299</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">罂粟壳</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000300</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">五倍子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000301</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">乌梅</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000302</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">金樱子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000303</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">桑螵蛸</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000304</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">覆盆子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000305</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">山茱萸</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000306</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">藜芦</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000307</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">胆矾</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000308</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">瓜蒂</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000309</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">常山</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000310</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">蛇床子</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000311</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">白矾</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000312</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">硫黄</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000313</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">雄黄</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000314</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">硼砂</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000315</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">炉甘石</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000316</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">铅丹</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000317</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">砒石</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000318</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">轻粉</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000319</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">红粉</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000320</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">归...经</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000321</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">具有...药性</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000322</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">具有...药味</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000323</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">具有...毒性</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000324</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">微苦</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000325</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">微温</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000326</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">大热</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000327</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">甘草</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="TCMDPO_0000002"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
 
