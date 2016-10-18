@@ -11,16 +11,29 @@
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      ontologyIRI="http://purl.obolibrary.org/obo/">
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subject: An ontology for the Traditional Chinese Medicine Decoction Pieces.
+Title: TCMDPO: Traditional Chinese Medicine Decoction Pieces Ontology
+Date: 2016-09-28
+Creator: Liu Lihong, Zhu Yan
+Description: As one of Traditional Chinese Medicine(TCM) ontologies, Traditional Chinese Medicine Decoction Pieces Ontology(TCMDPO) was developed by Institute of Information on Traditional Chinese Medicine (IITCM), China Academy of Chinese Medical Sciences(CACMS). This project is to eliminate the communication barriers in different fields, facilitate data modeling, and promote the sharing of data in TCM clinical practice. The onotolgy includes description of knowledge system structure and related properties for TCM decoction pieces in clinical use.
+</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">0.2.1</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="TCMDPO_0000001"/>
     </Declaration>
@@ -999,15 +1012,6 @@
     <Declaration>
         <ObjectProperty IRI="TCMDPO_0000323"/>
     </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="En"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="Latin"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="TCMDPO_0000002"/>
-    </Declaration>
     <SubClassOf>
         <Class IRI="TCMDPO_0000003"/>
         <Class IRI="TCMDPO_0000005"/>
@@ -1246,19 +1250,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="TCMDPO_0000062"/>
-        <Class abbreviatedIRI=":Thing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="TCMDPO_0000063"/>
-        <Class abbreviatedIRI=":Thing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="TCMDPO_0000064"/>
-        <Class abbreviatedIRI=":Thing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="TCMDPO_0000065"/>
-        <Class abbreviatedIRI=":Thing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="TCMDPO_0000066"/>
@@ -2589,1692 +2593,3318 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>TCMDPO_0000001</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">以中药材为原材料，按中医药理论，经过加工炮制后，可直接用于中医临床或制剂生产使用的处方药品。</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">With crude medicine as raw materials, according to Chinese medicine theory, after processing, it can be directly used in traditional Chinese medicine clinical or pharmaceutical production and use of prescription drugs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>TCMDPO_0000001</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">以中药材为原材料，按中医药理论，经过加工炮制后，可直接用于中医临床或制剂生产使用的处方药品。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>TCMDPO_0000001</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">中华人民共和国国家质量监督检验检疫总局中国国家标准化管理委员会.GB/T 31774-2015 中华人民共和国国家标准，中药编码规则及编码[S].2015.</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">中华人民共和国国家质量监督检验检疫总局中国国家标准化管理委员会.GB/T 31774-2015 中华人民共和国国家标准，中药编码规则及编码[S].2015.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000001</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">中药饮片</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Decoction Pieces</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000001</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">中药饮片</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000003</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">辛温解表药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pungent and Warm Natured Drugs for Relieving Superficies Syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000003</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">辛温解表药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000004</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">清热药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Heat-clearing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000004</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">清热药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000005</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">解表药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Superficies-relieving Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000005</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">解表药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000006</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">泻下药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Purging Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000006</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">泻下药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000007</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">祛风湿药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dispelling Pathogenic Wind and Dampeness Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000007</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">祛风湿药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000008</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">化湿药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dampness Removing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000008</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">化湿药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000009</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">利水渗湿药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Diuresis and Removing Dampness Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000009</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">利水渗湿药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000010</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">温里药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Warming Interior Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000010</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">温里药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000011</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">理气药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Qi Regulating Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000011</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">理气药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000012</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">消食药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Digestive Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000012</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">消食药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000013</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">驱虫药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Anti-helminthic Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000013</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">驱虫药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000014</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">止血药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hemostatics (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000014</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">止血药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000015</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">活血化瘀药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Promoting Blood Circulation and Removing Blood Stasis Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000015</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">活血化瘀药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000016</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">化痰止咳平喘药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Antitussive and Antiasthmetic Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000016</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">化痰止咳平喘药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000017</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">安神药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tranquillizing Medicinal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000017</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">安神药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000018</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">平肝息风药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Liver-calming and Wind-suppressing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000018</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">平肝息风药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000019</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">开窍药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Resuscitating Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000019</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">开窍药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000020</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">补虚药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Supplementing and Boosting Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000020</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">补虚药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000021</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">收涩药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Apocrustic Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000021</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">收涩药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000022</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">涌吐药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Emetic Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000022</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">涌吐药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000023</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">攻毒杀虫止痒药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Detoxicating and Destroying Parasites to Relieve Itching Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000023</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">攻毒杀虫止痒药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000024</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">拔毒化腐生肌药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Removing Toxic Substance and Tissue Regeneration Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000024</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">拔毒化腐生肌药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000025</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">辛凉解表药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pungent And Cool Natured Drugs for Relieving Superficies Syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000025</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">辛凉解表药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000026</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">清热泻火药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Clearing Heat and Purging Fire Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000026</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">清热泻火药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000027</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">清热燥湿药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Heat-clearing and Dampness-drying Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000027</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">清热燥湿药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000028</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">清热解毒药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Clearing Heat and Removing Toxicity Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000028</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">清热解毒药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000029</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">清热凉血药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Clearing Heat and Cooling Blood Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000029</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">清热凉血药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000030</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">清虚热药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Clearing Asthenic Fever Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000030</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">清虚热药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000031</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">攻下药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Offensive Purgative Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000031</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">攻下药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000032</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">润下药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Moistened Cathartic Drugs	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000032</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">润下药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000033</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">峻下逐水药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Drastic Hydragogue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000033</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">峻下逐水药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000034</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">祛风湿散寒药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Wind-damp Dispelling and Cold-dispersing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000034</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">祛风湿散寒药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000035</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">祛风湿清热药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Winddamp-dispelling and Heat-clearing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000035</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">祛风湿清热药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000036</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">祛风湿强筋骨药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Winddamp-dispelling and Tendon-bone-strengthening Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000036</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">祛风湿强筋骨药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000037</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">利水消肿药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Diuretic Detumescence Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000037</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">利水消肿药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000038</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">利尿通淋药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stranguria-relieving Diuretic Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000038</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">利尿通淋药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000039</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">利湿退黄药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Damp-excreting Anti-icteric Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000039</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">利湿退黄药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000040</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">凉血止血药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Blood-cooling Hemostatic Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000040</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">凉血止血药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000041</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">化瘀止血药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stasis-resolving Hemostatic Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000041</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">化瘀止血药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000042</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">收敛止血药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Astringing Hemostasic Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000042</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">收敛止血药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000043</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">温经止血药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Warming Channel and Arresting Bleeding Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000043</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">温经止血药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000044</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">活血止痛药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Activating Blood and Relieving Pain Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000044</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">活血止痛药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000045</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">活血调经药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Promoting Blood Circulation and Regulating Menstruation Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000045</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">活血调经药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000046</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">活血疗伤药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Blood-activating and Trauma-curing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000046</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">活血疗伤药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000047</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">破血消癥药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Activating Blood and Resolving Accumulation Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000047</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">破血消癥药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000048</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">温化寒痰药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Warming and Resolving Cold Phlegm Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000048</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">温化寒痰药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000049</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">清化热痰药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Clearing Heat and Resolving Phlegm Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000049</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">清化热痰药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_000005</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">解表药</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">解表药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000050</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">止咳平喘药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Relieving Cough and Asthma Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000050</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">止咳平喘药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000051</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">重镇安神药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tranquillization Drugs with Heavy Prescription</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000051</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">重镇安神药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000052</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">养心安神药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nourishing Heart Tranquilization Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000052</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">养心安神药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000053</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">平抑肝阳药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Suppressing Hyperactive Liver and Subsiding Yang Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000053</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">平抑肝阳药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000054</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">息风止痉药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Relieving Convulsion and Spasm Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000054</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">息风止痉药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000055</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">补气药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Qi-supplementing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000055</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">补气药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000056</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">补阳药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Yang-supplementing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000056</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">补阳药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000057</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">补血药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Blood-supplementing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000057</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">补血药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000058</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">补阴药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Yin-supplementing Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000058</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">补阴药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000059</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">固表止汗药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Consolidating Superficies for Arresting Sweating Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000059</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">固表止汗药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000060</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">敛肺涩肠药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Controlling Lung Astring Intestine Drugs	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000060</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">敛肺涩肠药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000061</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">固精缩尿止带药</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Drugs for Controlling Nocturnal Emission, Polyuria and Leukorrhagia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000061</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">固精缩尿止带药</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>TCMDPO_0000062</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">药物对于机体某部分的选择性作用。</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">药物对于机体某部分的选择性作用。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>TCMDPO_0000062</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000062</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">药物作用部位</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Channel Tropism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000062</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">药物作用部位</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>TCMDPO_0000063</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">寒热温凉四种不同的药性。</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">寒热温凉四种不同的药性。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>TCMDPO_0000063</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000063</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">四气</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Four Natures (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000063</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">四气（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>TCMDPO_0000064</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">药物所具有的酸、苦、甘、辛、咸不同的药味。</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">药物所具有的酸、苦、甘、辛、咸不同的药味。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>TCMDPO_0000064</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">钟赣生主编.中药学[M].北京：中国中医药出版社，2012.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000064</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">五味</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Five Flavours (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000064</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">中药五味</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>TCMDPO_0000065</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">药物对机体的损害性。</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">药物对机体的损害性。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>TCMDPO_0000065</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">侯士良主编.中药八百种详解[M].郑州：河南科学技术出版社.2009.</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">侯士良主编.中药八百种详解[M].郑州：河南科学技术出版社.2009.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000065</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">毒性</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Toxicity of Chinese Medicine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000065</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">毒性</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000066</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">肝经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Liver Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000066</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">肝经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000067</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">寒</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cold (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000067</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">寒（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000068</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">热</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hot (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000068</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">热（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000069</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">胆经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gallbladder Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000069</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">胆经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000070</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">酸</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sour (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000070</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">酸（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000071</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">温</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Warm (TCM)	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000071</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">温（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000072</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">凉</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cool (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000072</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">凉（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000073</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">麻黄</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ephedra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000073</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">麻黄</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000074</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">桂枝</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cassia Twig</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000074</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">桂枝</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000075</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">平</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mild(TCM)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000075</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">平（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000076</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">苦</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bitter (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000076</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">苦（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000077</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">甘</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sweet (TCD)	 </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000077</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">甘（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000078</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">辛</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pungent (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000078</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">辛（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000079</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">咸</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Salty (TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000079</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">咸（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000080</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">大毒</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Strong Toxicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000080</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">大毒</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000081</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">有毒</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Slightly Toxicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000081</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">有毒</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000082</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">小毒</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Small Toxicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000082</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">小毒</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000083</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">肺经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Lung Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000083</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">肺经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000084</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">大肠经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Large Intestine Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000084</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">大肠经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000085</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">脾经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Spleen Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000085</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">脾经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000086</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">胃经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stomach Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000086</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">胃经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000087</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">心经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Heart Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000087</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">心经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000088</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">小肠经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Small Intestine Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000088</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">小肠经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000089</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">肾经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Kidney Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000089</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">肾经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000090</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">膀胱经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bladder Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000090</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">膀胱经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000091</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">三焦经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Triple Energizer Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000091</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">三焦经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000092</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">心包经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pericardium Meridian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000092</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">心包经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000093</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">紫苏叶</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Perilla Leaf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000093</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">紫苏叶</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000094</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">生姜</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fresh Ginger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000094</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">生姜</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000095</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">香薷</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Mosla</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000095</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">香薷</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000096</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">荆芥</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fineleaf Schizonepeta Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000096</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">荆芥</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000097</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">防风</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Divaricate Saposhnikovia Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000097</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">防风</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000098</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">薄荷</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Peppermint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000098</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">薄荷</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000099</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">牛蒡子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Great Burdock Achene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000099</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">牛蒡子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000100</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">蝉蜕</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cicada Slough</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000100</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">蝉蜕</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000101</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">桑叶</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mulberry Leaf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000101</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">桑叶</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000102</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">菊花</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chrysanthemum Flower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000102</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">菊花</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000103</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">蔓荆子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Shrub Chastetree Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000103</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">蔓荆子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000104</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">柴胡</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Thorowax Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000104</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">柴胡</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000105</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">升麻</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Largetrifoliolious Bugbane Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000105</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">升麻</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000106</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">竹叶</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Henon Bamboo Leaf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000106</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">竹叶</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000107</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">天花粉</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nakegourd Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000107</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">天花粉</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000108</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">芦根</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Reed Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000108</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">芦根</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000109</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">知母</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Common Anemarrhena Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000109</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">知母</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000110</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">寒水石</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Red Gypsum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000110</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">寒水石</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000111</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">石膏</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gypsum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000111</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">石膏</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000112</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">苦参</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Lightyellow Sophora Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000112</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">苦参</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000113</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">秦皮</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ash Bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000113</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">秦皮</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000114</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">龙胆</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Gentian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000114</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">龙胆</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000115</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">黄柏</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Amur Cork-tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000115</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">黄柏</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000116</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">黄连</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Golden Thread</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000116</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">黄连</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000117</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">黄芩</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Baical Skullcap Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000117</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">黄芩</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000118</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">紫花地丁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tokyo Violet Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000118</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">紫花地丁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000119</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">蒲公英</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dandelion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000119</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">蒲公英</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000120</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">贯众</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Male Fern Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000120</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">贯众</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000121</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">青黛</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Natural Indigo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000121</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">青黛</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000122</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">板蓝根</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Isatis Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000122</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">板蓝根</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000123</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">大青叶</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dyers Woad Leaf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000123</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">大青叶</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000124</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">穿心莲</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Common Andrographis Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000124</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">穿心莲</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000125</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">连翘</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Weeping Forsythia Capsule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000125</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">连翘</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000126</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">金银花</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Honeysuckle Bud and Flower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000126</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">金银花</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000127</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">水牛角</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Buffalo Horn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000127</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">水牛角</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000128</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">紫草</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gromwell Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000128</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">紫草</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000129</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">赤芍</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Peony Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000129</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">赤芍</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000130</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">牡丹皮</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tree Peony Root Bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000130</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">牡丹皮</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000131</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">玄参</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Figwort Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000131</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">玄参</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000132</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">生地黄</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unprocessed Rehmannia Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000132</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">生地黄</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000133</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">胡黄连</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Figwortflower Picrorhiza Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000133</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">胡黄连</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000134</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">银柴胡</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Star-wort Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000134</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">银柴胡</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000135</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">地骨皮</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Wolfberry Root-bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000135</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">地骨皮</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000136</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">白薇</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Blackend Swallowwort Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000136</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">白薇</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000137</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">青蒿</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sweet Wormwood Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000137</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">青蒿</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000138</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">芦荟</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Aloe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000138</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">芦荟</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000139</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">番泻叶</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Senna Leaf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000139</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">番泻叶</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000140</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">芒硝</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mirabilite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000140</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">芒硝</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000141</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">大黄</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rhubarb Root and Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000141</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">大黄</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000142</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">松子仁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pine Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000142</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">松子仁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000143</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">郁李仁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Dwarf Cherry Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000143</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">郁李仁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000144</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">火麻仁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hemp Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000144</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">火麻仁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000145</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">千金子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Caper Euphorbia Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000145</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">千金子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000146</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">巴豆霜</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Defatted Croton Seed Powder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000146</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">巴豆霜</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000147</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">牵牛子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pharbitis Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000147</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">牵牛子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000148</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">商陆</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pokeberry Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000148</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">商陆</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000149</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">芫花</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Lilac Daphne Flower Bud</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000149</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">芫花</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000150</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">京大戟</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Peking Euphorbia Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000150</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">京大戟</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000151</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">甘遂</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gansui Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000151</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">甘遂</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000152</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">乌梢蛇</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Black-tail Snake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000152</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">乌梢蛇</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000153</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">蕲蛇</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Long-nosed Pit Viper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000153</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">蕲蛇</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000154</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">川乌</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Common Monkshood Mother Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000154</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">川乌</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000155</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">徐长卿</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Paniculate Swallowwort Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000155</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">徐长卿</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000156</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">威灵仙</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Clematis Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000156</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">威灵仙</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000157</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">独活</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Doubleteeth Pubescent Angelica Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000157</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">独活</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000158</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">海桐皮</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Oriental Variegated Coralbean Bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000158</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">海桐皮</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000159</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">臭梧桐</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Harlequin Glorybower Leaf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000159</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">臭梧桐</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000160</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">豨莶草</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Siegesbeckia Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000160</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">豨莶草</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000161</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">桑枝</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mulberry Twig</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000161</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">桑枝</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000162</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">防己</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mealy Fangji Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000162</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">防己</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000163</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">秦艽</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Largeleaf Gentian Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000163</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">秦艽</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000164</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">雪莲花</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Medusa Saussurea Herb with Flower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000164</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">雪莲花</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000165</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">千年健</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Obscured Homalomena Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000165</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">千年健</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000166</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">狗脊</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cibot Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000166</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">狗脊</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000167</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">桑寄生</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Taxillus Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000167</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">桑寄生</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000168</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">五加皮</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Acanthopanax Root Bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000168</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">五加皮</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000169</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">厚朴</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Officinal Magnolia Bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000169</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">厚朴</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000170</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">苍术</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Atractylodes Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000170</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">苍术</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000171</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">佩兰</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fortune Eupatorium Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000171</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">佩兰</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000172</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">广藿香</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cablin Patchouli Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000172</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">广藿香</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000173</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">砂仁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Villous Amomum Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000173</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">砂仁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000174</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">草果</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fruit of Caoguo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000174</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">草果</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000175</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">草豆蔻</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Katsumada Galangal Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000175</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">草豆蔻</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000176</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">豆蔻</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cardamon Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000176</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">豆蔻</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000177</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">泽泻</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Oriental Waterplantain Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000177</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">泽泻</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000178</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">猪苓</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Agaric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000178</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">猪苓</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000179</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">薏苡仁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Coix Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000179</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">薏苡仁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000180</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">茯苓</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Indian Bread</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000180</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">茯苓</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000181</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">通草</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ricepaperplant Pith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000181</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">通草</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000182</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">木通</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Akebia Stem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000182</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">木通</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000183</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">滑石</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Talc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000183</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">滑石</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000184</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">车前子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Plantain Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000184</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">车前子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000185</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">地耳草</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Japanese St. John&#39;swort herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000185</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">地耳草</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000186</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">虎杖</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Giant Knotweed Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000186</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">虎杖</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000187</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">金钱草</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Christina Loosestrife</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000187</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">金钱草</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000188</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">茵陈</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Virgate Wormwood Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000188</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">茵陈</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000189</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">吴茱萸</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Medicinal Evodia Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000189</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">吴茱萸</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000190</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">肉桂</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cassia Bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000190</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">肉桂</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000191</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">干姜</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dried Ginger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000191</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">干姜</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000192</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">附子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Prepared Common Monkshood Branched Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000192</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">附子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000193</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">沉香</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Eaglewood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000193</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">沉香</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000194</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">木香</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Common Aucklandia Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000194</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">木香</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000195</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">枳实</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Immature Orange Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000195</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">枳实</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000196</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">青皮</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Immature Tangerine Peel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000196</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">青皮</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000197</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">陈皮</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dried Tangerine Peel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000197</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">陈皮</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000198</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">鸡内金</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Inner Membrane of Chicken Gizzard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000198</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">鸡内金</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000199</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">莱菔子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Radish Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000199</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">莱菔子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000200</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">稻芽</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Germinated Rice-grain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000200</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">稻芽</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000201</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">麦芽</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Germinated Barley</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000201</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">麦芽</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000202</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">六神曲</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Medicated Leaven</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000202</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">六神曲</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000203</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">山楂</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hawthorn Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000203</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">山楂</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000204</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">南瓜子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cushaw Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000204</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">南瓜子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000205</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">槟榔</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Areca Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000205</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">槟榔</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000206</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">苦楝皮</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sichuan Chinaberry Bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000206</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">苦楝皮</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000207</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">使君子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rangooncreeper Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000207</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">使君子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000208</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">槐花</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pagodatree Flower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000208</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">槐花</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000209</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">地榆</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Garden Burnet Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000209</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">地榆</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000210</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">大蓟</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Japanese Thistle Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000210</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">大蓟</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000211</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">小蓟</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Field Thistle Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000211</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">小蓟</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000212</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">花蕊石</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ophicalcite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000212</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">花蕊石</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000213</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">蒲黄</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cattail Pollen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000213</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">蒲黄</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000214</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">茜草</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">India Madder Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000214</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">茜草</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000215</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">三七</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sanchi Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000215</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">三七</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000216</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">棕榈炭</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Petiolus Trachycarpi Carbonisatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000216</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">棕榈炭</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000217</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">紫珠叶</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Beautyberry Leaf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000217</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">紫珠叶</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000218</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">仙鹤草</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hairyvein Agrimonia Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000218</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">仙鹤草</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000219</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">白及</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Common Bletilla Rubber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000219</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">白及</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000220</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">姜黄</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Turmeric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000220</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">姜黄</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000221</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">灶心土</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Furnace Soil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000221</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">灶心土</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000222</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">炮姜</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Prepared Dried Ginger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000222</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">炮姜</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000223</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">艾叶</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Argy Wormwood Leaf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000223</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">艾叶</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000224</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">郁金</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Turmeric Root Tuber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000224</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">郁金</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000225</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">延胡索</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Yanhusuo Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000225</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">延胡索</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000226</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">川芎</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sichuan Lovage Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000226</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">川芎</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000227</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">苏木</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sappan Wood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000227</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">苏木</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000228</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">自然铜</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pyrite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000228</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">自然铜</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000229</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">马钱子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nux Vomica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000229</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">马钱子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000230</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">土鳖虫</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ground Beetle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000230</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">土鳖虫</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000231</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">益母草</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Motherwort Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000231</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">益母草</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000232</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">桃仁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Peach Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000232</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">桃仁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000233</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">红花</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Safflower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000233</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">红花</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000234</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">丹参</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Danshen Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000234</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">丹参</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000235</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">虻虫</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cleg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000235</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">虻虫</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000236</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">水蛭</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Leech</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000236</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">水蛭</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000237</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">三棱</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Common Buried Rubber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000237</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">三棱</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000238</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">莪术</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Zedoray Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000238</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">莪术</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000239</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">芥子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mustard Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000239</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">芥子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000240</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">白附子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Giant Typhonium Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000240</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">白附子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000241</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">天南星</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Jackinthepulpit Tuber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000241</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">天南星</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000242</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">半夏</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pinellia Tuber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000242</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">半夏</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000243</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">竹茹</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bamboo Shavings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000243</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">竹茹</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000244</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">瓜蒌</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Snakegourd Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000244</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">瓜蒌</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000245</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">浙贝母</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Thunberbg Fritillary Bulb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000245</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">浙贝母</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000246</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">川贝母</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tendrilleaf Fritillary Bulb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000246</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">川贝母</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000247</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">紫菀</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tatarian Aster Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000247</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">紫菀</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000248</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">百部</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stemona Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000248</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">百部</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000249</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">紫苏子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Perilla Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000249</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">紫苏子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000250</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">苦杏仁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bitter Apricot Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000250</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">苦杏仁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000251</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">远志</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Milkwort Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000251</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">远志</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000252</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">合欢皮</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Silktree Albizia Bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000252</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">合欢皮</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000253</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">首乌藤</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tuber Fleeceflower Stem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000253</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">首乌藤</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000254</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">灵芝</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Glossy Ganoderma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000254</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">灵芝</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000255</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">柏子仁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Arborvitae Kernel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000255</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">柏子仁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000256</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">酸枣仁</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Spine Date Seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000256</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">酸枣仁</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000257</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">琥珀</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Amber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000257</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">琥珀</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000258</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">龙骨</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Keel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000258</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">龙骨</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000259</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">磁石</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Magnetite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000259</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">磁石</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000260</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">朱砂</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cinnabar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000260</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">朱砂</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000261</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">紫贝齿</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Arabia Cowry Shell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000261</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">紫贝齿</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000262</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">牡蛎</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Oyster Shell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000262</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">牡蛎</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000263</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">珍珠母</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nacre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000263</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">珍珠母</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000264</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">石决明</Literal>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">石决明</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000265</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">钩藤</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gambir Plant Nod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000265</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">钩藤</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000266</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">珍珠</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pearl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000266</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">珍珠</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000267</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">牛黄</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bezoar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000267</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">牛黄</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000268</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">羚羊角</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Antelope Horn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000268</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">羚羊角</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000269</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">石菖蒲</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Grassleaf Sweetflag Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000269</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">石菖蒲</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000270</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">苏合香</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Storax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000270</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">苏合香</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000271</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">冰片</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Borneol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000271</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">冰片</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000272</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">麝香</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Musk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000272</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">麝香</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000273</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">白术</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Largehead Atractylodes Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000273</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">白术</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000274</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">黄芪</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Milkvetch Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000274</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">黄芪</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000275</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">太子参</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Heterophylly Falsestarwort Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000275</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">太子参</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000276</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">党参</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tangshen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000276</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">党参</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000277</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">西洋参</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">American Ginseng</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000277</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">西洋参</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000278</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">人参</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ginseng</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000278</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">人参</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000279</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">杜仲</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Eucommia Bark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000279</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">杜仲</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000280</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">仙茅</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Common Curculigo Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000280</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">仙茅</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000281</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">巴戟天</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Morinda Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000281</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">巴戟天</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000282</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">淫羊藿</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Epimedium Herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000282</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">淫羊藿</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000283</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">紫河车</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Human Placenta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000283</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">紫河车</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000284</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">鹿茸</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pilose Antler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000284</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">鹿茸</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000285</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">龙眼肉</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Longan Aril</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000285</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">龙眼肉</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000286</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">何首乌</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fleeceflower Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000286</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">何首乌</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000287</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">阿胶</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ass Hide Glue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000287</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">阿胶</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000288</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">白芍</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Debark Peony Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000288</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">白芍</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000289</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">熟地黄</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Prepared Rehmannia Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000289</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">熟地黄</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000290</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">当归</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Angelica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000290</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">当归</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000291</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">麦冬</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dwarf Lilyturf Tuber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000291</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">麦冬</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000292</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">百合</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Lily Bulb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000292</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">百合</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000293</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">南沙参</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fourleaf Ladybell Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000293</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">南沙参</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000294</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">北沙参</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Coastal Glehnia Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000294</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">北沙参</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000295</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">五味子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Magnoliavine Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000295</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">五味子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000296</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">糯稻根</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stichy Rice Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000296</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">糯稻根</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000297</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">浮小麦</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Immature Wheat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000297</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">浮小麦</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000298</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">麻黄根</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ephedra Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000298</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">麻黄根</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000299</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">罂粟壳</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Poppy Capsule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000299</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">罂粟壳</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000300</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">五倍子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chinese Gall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000300</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">五倍子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000301</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">乌梅</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Smoked Plum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000301</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">乌梅</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000302</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">金樱子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cherokee Rose Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000302</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">金樱子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000303</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">桑螵蛸</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mantis Egg-case</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000303</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">桑螵蛸</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000304</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">覆盆子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Palmleaf Raspberry Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000304</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">覆盆子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000305</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">山茱萸</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Asiatic Cornelian Cherry Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000305</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">山茱萸</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000306</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">藜芦</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Black Falsehellebore Root and Rhizome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000306</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">藜芦</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000307</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">胆矾</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chalcanthite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000307</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">胆矾</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000308</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">瓜蒂</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cushaw Base</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000308</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">瓜蒂</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000309</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">常山</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Antifeverile Dichroa Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000309</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">常山</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000310</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">蛇床子</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Common Cnidium Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000310</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">蛇床子</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000311</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">白矾</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Alum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000311</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">白矾</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000312</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">硫黄</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sulfur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000312</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">硫黄</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000313</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">雄黄</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Realgar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000313</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">雄黄</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000314</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">硼砂</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Borax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000314</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">硼砂</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000315</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">炉甘石</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Calamine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000315</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">炉甘石</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000316</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">铅丹</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Minium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000316</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">铅丹</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000317</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">砒石</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Arsenic Sublimate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000317</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">砒石</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000318</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">轻粉</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Calomel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000318</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">轻粉</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000319</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">红粉</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Red Oxide of Mexcury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000319</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">红粉</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000320</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">归...经</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has...channel tropism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000320</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">归...经</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000321</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">具有...药性</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has..nature </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000321</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">具有...药性</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000322</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">具有...药味</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has...flavour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000322</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">具有...药味</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000323</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">具有...毒性</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has...toxicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000323</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">具有...毒性</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000324</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">微苦</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Slightly Bitter(TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000324</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">微苦（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000325</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">微温</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Slightly Warm(TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000325</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">微温（中药）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000326</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">大热</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Extremely Hot(TCD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TCMDPO_0000326</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">大热</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>TCMDPO_0000327</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">甘草</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Liquorice Root</Literal>
     </AnnotationAssertion>
-    <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="TCMDPO_0000002"/>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-    </SubAnnotationPropertyOf>
+        <IRI>TCMDPO_0000327</IRI>
+        <Literal xml:lang="zh" datatypeIRI="&rdf;PlainLiteral">甘草</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
