@@ -1,0 +1,1867 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2016/9/acupo.owl"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     ontologyIRI="http://www.semanticweb.org/ontologies/2016/9/acupo.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000169"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000172"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000173"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000174"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000178"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000182"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000189"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000193"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000196"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000197"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000198"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000199"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000230"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000241"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000242"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000147"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000148"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000149"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000150"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000151"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000152"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000153"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000154"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000155"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000156"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000157"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000158"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000243"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000001"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000243"/>
+            <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000241"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000003"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000004"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000006"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000008"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000009"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000010"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000011"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000012"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000013"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000014"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000015"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000018"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000243"/>
+            <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000233"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000020"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000243"/>
+            <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000239"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000021"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000021"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000243"/>
+            <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000021"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000243"/>
+            <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000022"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000023"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000024"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000243"/>
+            <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000230"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000025"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000243"/>
+            <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000229"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000031"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000032"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000033"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000034"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000035"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000036"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000037"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000038"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000039"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000041"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000042"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000043"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000044"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000045"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000046"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000159"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000160"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000161"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000162"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000163"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000164"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000165"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000166"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000167"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000168"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000169"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000170"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000171"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000172"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000173"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000174"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000175"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000176"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000177"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000178"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000179"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000180"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000181"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000182"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000183"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000184"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000185"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000186"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000187"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000188"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000189"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000190"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000191"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000192"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000193"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000194"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000195"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000196"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000197"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000198"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000199"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000200"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000201"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000202"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000203"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000204"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000205"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000206"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000207"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000208"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000209"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000210"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000211"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000212"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000213"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000214"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000215"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000216"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000217"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000218"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000219"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000220"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000221"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000222"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000223"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000224"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000225"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000226"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000228"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000229"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000230"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000231"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000232"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000233"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000234"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000235"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000236"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000237"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000238"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000239"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000240"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000241"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000242"/>
+        <Class IRI="http://purl.obolibrary.org/obo/TCMAPO_0000227"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000001</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">中府</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LU1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000002</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Governing_vessel_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000003</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Gallbladder_acupuncture_points </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000004</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Conception_vessel_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000005</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Large_intestine_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000006</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Liver_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000007</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Lung_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000008</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">spleen_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000009</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Pericardium_acupuncture_points </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000010</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Small_intestine_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000011</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Triple_energizer_acupuncture_points </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000012</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Stomach_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000013</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">云门</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000013</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000014</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Heart_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000015</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Kidney acupuncture points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000016</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Bladder_acupuncture_points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000017</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">天府</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000017</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000018</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">侠白</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000018</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000019</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">尺泽</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000019</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000020</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">孔最</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000020</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000021</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">列缺</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000021</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000022</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">经渠</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000022</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000023</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">太渊</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000023</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000024</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">鱼际</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000024</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/TCMAPO_0000026"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000025</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">少商</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000025</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LU11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000027</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000028</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000029</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000030</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000031</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000032</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000033</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000034</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000035</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000036</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000037</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000038</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000039</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI13</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000040</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI14</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000041</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000042</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000043</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI17</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000044</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000045</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000046</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">LI20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000147</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">dorsal to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000148</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">end</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000149</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">adjacent to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000150</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">posterior to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000151</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">surrounded by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000152</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">surrounds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000153</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">located in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000154</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">regulate
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000155</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">overlap
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000156</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">start</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000157</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">ventral to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000158</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">anterior to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000159</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000160</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000161</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000162</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000163</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000164</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000165</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000166</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000167</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000168</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000169</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000170</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000171</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL13</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000172</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL14</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000173</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000174</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000175</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL17</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000176</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000177</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000178</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000179</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL21</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000180</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL22</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000181</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL23</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000182</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL24</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000183</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000184</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL26</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000185</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL27</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000186</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL28</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000187</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL29</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000188</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL30</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000189</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL31</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000190</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL32</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000191</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL33</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000192</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL34</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000193</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL35</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000194</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL36</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000195</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL37</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000196</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL38</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000197</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL39</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000198</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL40</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000199</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL41</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000200</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL42</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000201</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL43</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000202</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL44</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000203</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL45</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000204</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL46</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000205</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL47</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000206</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL48</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000207</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL49</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000208</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL50</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000209</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL51</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000210</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL52</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000211</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL53</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000212</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL54</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000213</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL55</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000214</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL56</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000215</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL57</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000216</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL58</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000217</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL59</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000218</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL60</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000219</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL61</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000220</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL62</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000221</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL63</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000222</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000223</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL65</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000224</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL66</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000225</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">BL67</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000226</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">extra point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000227</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">points on the fourteen meridians with specific therapeutic effects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000227</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">specific point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000228</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">five specific points of the twelve meridians located distal to the elbows and knees, namely the well point, brook point, stream point, river point and sea point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000228</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">five transport points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000229</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">one of the five transport points located at the distal end of the fingers or toes, where the meridian/channel qi starts to bubble</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000229</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">well point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000230</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">one of the five transport points, mostly located distal to the metacarpophalangeal or metatarsophalangeal joints, where the meridian/channel qi starts to spout</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000230</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">brook point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000231</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">one of the five transport points, mostly located proximal to the metacarpophalangeal or metatarsophalangeal joints, where the meridian/channel qi starts to flourish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000231</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">stream point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000232</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">one of the five transport points, located on the lower limbs and forearms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000232</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">river point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000233</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">one of the five transport points, mostly located near the elbows or knees, where the meridian/channel qi goes deep into the body just as a river flows into the sea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000233</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">sea point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000234</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">points where the original qi of the visceral organs pours, passes or stays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000234</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">source point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000235</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">eight important points where the qi of viscus, bowel,qi, blood, tendon, vessel, bone and marrow gathers respectively</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000235</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">eight meeting points </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000236</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">point where two or more meridians/channels intersect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000236</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">crossing point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000237</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">points where the main meridians communicate with the eight extra meridians</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000237</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">confluence points of the eight vessels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000238</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">specific points on the three yang meridians of the foot corresponding to the six bowels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000238</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">lower sea points of the six bowels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000239</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">point where the meridian/channel qi accumulates deeply</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000239</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">cleft point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000240</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">point at the site where the meridian/channel sends out its collateral vessel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000240</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">connecting point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000241</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">specific points on the chest or abdomen where the qi of the respective viscus is concentrated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000241</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">alarm point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000242</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">specific points on the back where the qi of the visceral organs is infused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000242</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">transport point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/TCMAPO_0000243</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">is a</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
